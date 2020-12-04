@@ -1,0 +1,142 @@
+{
+  "moduleName": null,
+  "summaries": [
+    {
+      "symbol": {
+        "__symbol": 0,
+        "members": []
+      },
+      "metadata": {
+        "__symbolic": "interface"
+      }
+    },
+    {
+      "symbol": {
+        "__symbol": 1,
+        "members": []
+      },
+      "metadata": {
+        "__symbolic": "interface"
+      }
+    },
+    {
+      "symbol": {
+        "__symbol": 2,
+        "members": []
+      },
+      "metadata": {
+        "__symbolic": "class",
+        "extends": {
+          "__symbolic": "resolved",
+          "symbol": {
+            "__symbol": 3,
+            "members": []
+          },
+          "line": 114,
+          "character": 33,
+          "fileName": "src/@ionic-native/plugins/apple-wallet/index.ts"
+        },
+        "members": {
+          "available": [
+            {
+              "__symbolic": "method",
+              "decorators": [
+                {
+                  "__symbolic": "call",
+                  "expression": {
+                    "__symbolic": "resolved",
+                    "symbol": {
+                      "__symbol": 4,
+                      "members": []
+                    },
+                    "line": 119,
+                    "character": 3,
+                    "fileName": "src/@ionic-native/plugins/apple-wallet/index.ts"
+                  }
+                }
+              ]
+            }
+          ],
+          "startAddPaymentPass": [
+            {
+              "__symbolic": "method",
+              "decorators": [
+                {
+                  "__symbolic": "call",
+                  "expression": {
+                    "__symbolic": "resolved",
+                    "symbol": {
+                      "__symbol": 4,
+                      "members": []
+                    },
+                    "line": 129,
+                    "character": 3,
+                    "fileName": "src/@ionic-native/plugins/apple-wallet/index.ts"
+                  }
+                }
+              ]
+            }
+          ],
+          "completeAddPaymentPass": [
+            {
+              "__symbolic": "method",
+              "decorators": [
+                {
+                  "__symbolic": "call",
+                  "expression": {
+                    "__symbolic": "resolved",
+                    "symbol": {
+                      "__symbol": 4,
+                      "members": []
+                    },
+                    "line": 139,
+                    "character": 3,
+                    "fileName": "src/@ionic-native/plugins/apple-wallet/index.ts"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "type": {
+        "summaryKind": 3,
+        "type": {
+          "reference": {
+            "__symbol": 2,
+            "members": []
+          },
+          "diDeps": [],
+          "lifecycleHooks": []
+        }
+      }
+    }
+  ],
+  "symbols": [
+    {
+      "__symbol": 0,
+      "name": "EncryptedCardData",
+      "filePath": "./index"
+    },
+    {
+      "__symbol": 1,
+      "name": "CardData",
+      "filePath": "./index"
+    },
+    {
+      "__symbol": 2,
+      "name": "AppleWallet",
+      "filePath": "./index"
+    },
+    {
+      "__symbol": 3,
+      "name": "IonicNativePlugin",
+      "filePath": "../../../../dist/@ionic-native/core/index"
+    },
+    {
+      "__symbol": 4,
+      "name": "Cordova",
+      "filePath": "../../../../dist/@ionic-native/core/index"
+    }
+  ]
+}

@@ -1,33 +1,50 @@
 {
-  "name": "apple-wallet-ng",
-  "version": "2.1.0",
-  "description": "Ionic wrapper for cordova-apple-wallet",
-  "main": "dist/index.js",
-  "scripts": {
-    "prepare": "npm run build",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "@ionic-native/apple-wallet@4.20.0",
+  "_id": "@ionic-native/apple-wallet@4.20.0",
+  "_inBundle": false,
+  "_integrity": "sha512-b25m8YDxJgipVRNH0IbYgeLOO3x6HWFGY5s3UoxTQJ5OMk+6gbQ0E5AZ3/ZsOlRU64mA4AbYxvAVOQOujBcq/Q==",
+  "_location": "/@ionic-native/apple-wallet",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ionic-native/apple-wallet@4.20.0",
+    "name": "@ionic-native/apple-wallet",
+    "escapedName": "@ionic-native%2fapple-wallet",
+    "scope": "@ionic-native",
+    "rawSpec": "4.20.0",
+    "saveSpec": null,
+    "fetchSpec": "4.20.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic-native/apple-wallet/-/apple-wallet-4.20.0.tgz",
+  "_shasum": "46907307c07b97f2b6774951fb81b54f95e4dd98",
+  "_spec": "@ionic-native/apple-wallet@4.20.0",
+  "_where": "/Users/johnathanwhite/dev/copay",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/apple-wallet",
+  "peerDependencies": {
+    "@ionic-native/core": "^4.11.0",
+    "@angular/core": "*",
+    "rxjs": "^5.5.11"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cmgustavo/apple-wallet-ng.git"
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
   },
-  "keywords": [],
-  "author": "Gustavo Cortez <cmgustavo83@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cmgustavo/apple-wallet-ng/issues"
-  },
-  "homepage": "https://github.com/cmgustavo/apple-wallet-ng#readme",
-  "dependencies": {
-    "@angular/core": "5.2.11",
-    "@ionic-native/core": "4.14.0",
-    "rxjs": "5.5.12",
-    "zone.js": "0.8.26"
-  },
-  "Devdependencies": {
-    "typescript": "4.0.3",
-    "tslint": "5.8.0"
-  },
-  "typings": "dist/index.d.ts"
+  "typings": "index.d.ts",
+  "version": "4.20.0"
 }
